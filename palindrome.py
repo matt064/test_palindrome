@@ -23,7 +23,8 @@ test_cases = {
     "Mateusz" : False,
     "" : None,
     "Mamuta tu mam" : "mamutatumam",
-    22 : False,
+    22 : False,             # wartosci inne niz string nie sa palindromami
+    "!12a 21!" : "!12a21!",
 }
 
 for data, expectation in test_cases.items():
